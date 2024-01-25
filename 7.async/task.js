@@ -53,7 +53,7 @@ class AlarmClock {
         }
     }
     resetAllCalls () {
-        return this.alarmCollection.forEach(canCall === true);
+        return this.alarmCollection.forEach(clock => canCall === true);
     }
     clearAlarms () {
         this.stop();
